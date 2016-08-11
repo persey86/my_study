@@ -1,0 +1,21 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+
+/.idea/
+/.idea/copyright/
+/.idea/compiler.xml
+/.idea/misc.xml
+/.idea/my_study.iml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
+/src/DO NOT READ.txt
+/src/JavaRushPlugin.properties
