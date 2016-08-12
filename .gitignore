@@ -8,7 +8,6 @@
 *.war
 *.ear
 
-
 /.idea/
 /.idea/copyright/
 /.idea/compiler.xml
