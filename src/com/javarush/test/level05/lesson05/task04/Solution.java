@@ -13,7 +13,7 @@ public class Solution {
 
         System.out.println(cat1.name);
         System.out.println(cat2.weight);
-        System.out.println(cat3.age);
+        System.out.println(cat3.strength);
     }
 
     public static class Cat {
