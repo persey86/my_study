@@ -38,7 +38,7 @@ public class Solution
         }
         else {
             System.out.println("Enter corect digitals!");
-            System.exit(-100500);
+            System.exit(0);
         }
     }
 }
