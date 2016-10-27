@@ -13,7 +13,7 @@ import java.util.List;
 3. Найти минимальное число среди элементов списка - метод getMinimum.
 */
 
-public class Solution
+public class FindMinElemCollections
 {
     public static void main(String[] args) throws Exception {
         List<Integer> integerList = getIntegerList();
