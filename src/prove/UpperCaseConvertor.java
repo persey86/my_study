@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
   Мама     Мыла Раму.
 */
 
-public class С
+public class СonvertToUpperCase
 {
     public static void main(String[] args) throws IOException
     {
