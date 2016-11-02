@@ -19,7 +19,5 @@ public class Solution
         catch (NullPointerException ex){
             System.out.println("NullPointerException has been caught.");
         }
-        //напишите тут ваш код
-
     }
 }
