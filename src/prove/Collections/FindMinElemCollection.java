@@ -25,6 +25,8 @@ public class FindMinElemCollections
         Integer min = Collections.min(array);
         return min;
     }
+
+
     public static List<Integer> getIntegerList() throws IOException {
         List<Integer> list = new ArrayList<Integer>();
                 BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
