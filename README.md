@@ -1,2 +1,2 @@
 # my_study
-OOP, exceptions, etc.
+OOP, exceptions, Threads, etc.
