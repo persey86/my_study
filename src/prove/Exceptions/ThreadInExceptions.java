@@ -20,8 +20,6 @@ public class Solution
                 e.printStackTrace();
             }
             System.out.println(i);
-
-
         }
     }
 }
