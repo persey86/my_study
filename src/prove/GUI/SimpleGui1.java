@@ -1,7 +1,5 @@
 package proove;
 
-import javax.swing.*;
-
 /**
  * Created by Anastasia on 29.11.2016.
  */
