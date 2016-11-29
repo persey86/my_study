@@ -1,7 +1,7 @@
 package proove;
 
 /**
- * Created by Anastasia on 29.11.2016.
+ * Created on 29.11.2016.
  */
 public class SimpleGui1 {
     public static void main(String[] args) {
