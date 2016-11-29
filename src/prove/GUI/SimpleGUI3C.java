@@ -1,9 +1,5 @@
 package GUI;
 
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
-
 /**
  * Circle change color ever punch the button
  */
