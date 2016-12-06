@@ -1,7 +1,5 @@
 package com.javarush.test.level09.lesson11.bonus02;
 
-import java.io.*;
-
 /*
 Описание: Программа вводит два имени файла. И копирует первый файл на место, заданное вторым именем.
 Задача: Программа вводит два имени файла. И копирует первый файл на место, заданное вторым именем.
@@ -10,7 +8,7 @@ import java.io.*;
 а уже потом считывать файл для записи.
 */
 
-public class Solution{
+public class CopyFileInDir{
     public static void main(String[] args) throws IOException
     {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
