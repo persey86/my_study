@@ -1,8 +1,5 @@
 package GUI;
 
-import javax.swing.*;
-import java.awt.*;
-
 /**
  * Created by Anastasia on 01.12.2016.
  */
