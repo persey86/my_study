@@ -31,7 +31,7 @@ public class GameSaverTest
             GameCharacter twoRestore = (GameCharacter) is.readObject();
             GameCharacter threeRestore = (GameCharacter) is.readObject();
 
-            System.out.println("Тип первого:" + oneRestore.getType());
+            System.out.println("Тип первого:" + oneRestore.getType());  // we're making inspection
             System.out.println("Тип второго:" + twoRestore.getType());
             System.out.println("Тип третьего:" + threeRestore.getType());
         }catch (Exception ex){
