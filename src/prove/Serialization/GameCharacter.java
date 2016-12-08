@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * Created on 08.12.2016.
  */
-public class GameCharacter implements Serializable
+public class GameCharacter implements Serializable //this class is for testing serialization only!
 {
     int power;
     String type;
