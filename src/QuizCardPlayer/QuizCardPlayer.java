@@ -1,6 +1,11 @@
+import javafx.scene.shape.QuadCurve;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.util.ArrayList;
 
 /**
@@ -74,5 +79,33 @@ public class QuizCardPlayer {
             loadFile(fileOpen.getSelectedFile());
         }
     }
-    
+private void loadFile(File file){
+    cardList = new ArrayList<QuizCard>();
+    try{
+        BufferedReader reader = new BufferedReader(new FileReader(file));
+        String line = null;
+        while ((line = reader.readLine()) !=null){
+            makeCard(line);
+        }
+        reader.close();
+    }catch (Exception ex){
+        System.out.println("couldn't read the card file");
+        ex.printStackTrace();
+    }
+    showNextCard();    // It's time to show the first card
+    }
+
+    private void makeCard(String lineToParse){
+        String[] result = lineToParse.split("/");   // We can divide question and request
+        QuizCard card = new QuizCard(result[0], result[1]);
+        cardList.add(card);
+        System.out.println("made a card");
+    }
+    private void showNextCard(){
+        currentCard = cardList.get(currentCardIndex);
+        currentCardIndex++;
+        display.setText(currentCard.getQuestion());
+        nextButton.setText("Show Answer");
+        isShowAnswer = true;
+    }
 }
